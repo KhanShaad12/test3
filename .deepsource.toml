@@ -1,11 +1,11 @@
 version = 1
 
 [[analyzers]]
-name = "sql"
+name = "test-coverage"
 enabled = true
 
 [[analyzers]]
-name = "test-coverage"
+name = "docker"
 enabled = true
 
 [[analyzers]]
@@ -14,8 +14,3 @@ enabled = true
 
   [analyzers.meta]
   import_root = "github.com/KhanShaad12/test3"
-  dependencies_vendored = true
-
-[[analyzers]]
-name = "docker"
-enabled = true
